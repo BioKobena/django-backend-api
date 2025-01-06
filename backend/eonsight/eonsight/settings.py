@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-5m3c+mw#-^+g@6c&gz#sb9w2wmx939)q=-2!i#0-5beo#q6z91
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["localhost", "4200", "django-bridges-api.onrender.com"]
+ALLOWED_HOSTS = ["https://django-bridges-api.onrender.com"]
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
@@ -168,7 +168,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:4200", "django-bridges-api.onrender.com"]
+CORS_ALLOWED_ORIGINS = ["https://django-bridges-api.onrender.com"]
 
 
 # Internationalization
