@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-5m3c+mw#-^+g@6c&gz#sb9w2wmx939)q=-2!i#0-5beo#q6z91
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["localhost", "4200"]
+ALLOWED_HOSTS = ["localhost", "4200", "django-bridges-api.onrender.com"]
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
@@ -63,7 +63,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "corsheaders.middleware.CorsMiddleware",
-    'django.middleware.common.CommonMiddleware',
+    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = "eonsight.urls"
@@ -168,7 +168,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:4200"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:4200", "django-bridges-api.onrender.com"]
 
 
 # Internationalization
@@ -192,5 +192,5 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-CORS_ALLOW_METHODS = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-CORS_ALLOW_HEADERS = ['Content-Type', 'Authorization']
+CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+CORS_ALLOW_HEADERS = ["Content-Type", "Authorization"]
