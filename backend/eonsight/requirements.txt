@@ -1,9 +1,13 @@
 asgiref==3.8.1
 dj-database-url==2.3.0
 Django==5.1.4
+django-cors-headers==4.6.0
 django-filter==24.3
 djangorestframework==3.15.2
+djangorestframework-gis @ https://github.com/openwisp/django-rest-framework-gis/tarball/master#sha256=9cbb2fe2640da34f5ac153230d9d42bcb021827e6829b7efccaff314dea7eb46
 Markdown==3.7
+psycopg2==2.9.10
+psycopg2-binary==2.9.10
 python-dotenv==1.0.1
 sqlparse==0.5.3
 typing_extensions==4.12.2
