@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-5m3c+mw#-^+g@6c&gz#sb9w2wmx939)q=-2!i#0-5beo#q6z91
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'https://django-bridges-api.onrender.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'django-bridges-api.onrender.com']
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
