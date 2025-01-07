@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-5m3c+mw#-^+g@6c&gz#sb9w2wmx939)q=-2!i#0-5beo#q6z91
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'https://django-bridges-api.onrender.com']
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
@@ -167,11 +167,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-ALLOWED_HOSTS = ['*']
-
-CORS_ALLOWED_ORIGINS = ["http://localhost:4200", "http://localhost:8000"]
+CORS_ALLOWED_ORIGINS = ["https://django-bridges-api.onrender.com"]
 
 
 # Internationalization
@@ -195,5 +191,3 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
-CORS_ALLOW_HEADERS = ["Content-Type", "Authorization"]
